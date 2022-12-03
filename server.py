@@ -1,4 +1,4 @@
-from flask import Flask, jsonify,request,render_template,Response
+from flask import Flask,request,render_template,Response
 from flask_restful import Api, Resource, reqparse
 import pickle
 import numpy as np
