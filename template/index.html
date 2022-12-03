@@ -1,0 +1,22 @@
+<html>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8  offset-lg-2">
+    
+                
+                <h2 class="mt-5 " style="text-align:center">Emojify Using Emotion</h2>
+                <form method="post" action="{{ url_for('tasks') }}">
+                <input type="submit" value="Stop/Start" name="stop" style="margin-left: auto;margin-right:auto"/>
+                </form>
+            <div style="flex:flex-center">
+                <img src="{{ url_for('video_feed') }}" height="80%">
+                <img src="{{ url_for('emoji') }}" height="80%">
+            </div>  
+            </div>
+        </div>
+    </div>
+    </body>
+
+</html>
